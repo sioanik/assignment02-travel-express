@@ -106,7 +106,7 @@ nav {
 .banner-sec {
     height: 500px;
     width: 100%;
-    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/group-13.png');
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/group13.png');
     border-radius: 16px;
     display: flex;
     flex-direction: column;
@@ -546,6 +546,41 @@ hr{
     width: 393px;
 height: 1px;
 background: rgba(19, 19, 24, 0.10);
-padding: 0 41px 24px 40px;
+margin: 0 41px 24px 40px;
 
+}
+
+.{
+    newslt-input{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.newslt-sec{
+    width: 474px;
+height: 422px;
+border-radius: 16px;
+border: 1px solid #FF5400;
+
+}
+
+
+.newslt-input input[type="text"] {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border-color: transparent;
+    text-indent: 15px;
+}
+
+.newslt-email input[type="email"] {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border-color: transparent;
+    text-indent: 15px;
 }
