@@ -402,9 +402,11 @@
         padding: 0 42px 16px 23px;
     }
 
-    hr {
+    .newslt-left hr {
         width: 288px;
         height: 1px;
+        margin: 0 24px;
+
     }
 
 
