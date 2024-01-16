@@ -220,9 +220,9 @@ nav {
 .popular-tours-text1,
 .popular-tours-text2,
 .popular-tours-text3 {
-    
+
     padding: 16px 0;
-    
+
 }
 
 .popular-tours-text3 {
@@ -253,7 +253,7 @@ nav {
 /* ----- Gallery section start -----  */
 
 
-.gallery-text{
+.gallery-text {
     /* display: flex; */
     /* flex-direction: column; */
     /* align-items: center; */
@@ -262,19 +262,30 @@ nav {
     margin: 100px auto 0 auto;
 }
 
-.gallery-p1{
+.gallery-p1 {
     padding: 24px 0 48px 0;
 }
 
-.gallery-grid{
+.gallery-grid {
     display: grid;
-    grid-template-columns:repeat(24,1fr);
-    grid-template-rows:300px 286px 300px;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: (300px 286px 300px);
+    /* max-width: 1170px; */
+    /* height: 934px; */
+    /* place-items: center; */
+    /* justify-content: space-between; */
+    /* gap: 24px; */
+    /* margin: 0; */
     grid-row-gap: 24px;
-    
+
 }
 
+.gallery-grid div h3 {
+    margin-top: 150px;
 
+}
+
+/* 
 .grid-img1{
     grid-column: 1 / span 12;
     grid-row: 1;
@@ -302,11 +313,153 @@ nav {
 .grid-img7{
     grid-column: 11 / span 24;
     grid-row: 3;
+} */
+
+
+.grid-img01 {
+    width: 573px;
+    height: 300px;
+    background-image: url('/Images/Rectangle\ 5.png');
+    grid-column: 1 / span 12;
+    grid-row: 1;
+    /* border: 10px solid red; */
+}
+
+.grid-img02 {
+    width: 573px;
+    height: 300px;
+    background-image: url('/Images/Rectangle\ 8.png');
+    grid-column: 13 / span 24;
+    grid-row: 1;
+}
+
+.grid-img03 {
+    width: 374px;
+    height: 286px;
+    background-image: url('/Images/Rectangle\ 6.png');
+    grid-column: 1 / span 8;
+    grid-row: 2;
+}
+
+.grid-img04 {
+    width: 474px;
+    height: 286px;
+    background-image: url('/Images/Rectangle\ 7.png');
+    grid-column: 9 / span 18;
+    grid-row: 2;
+}
+
+.grid-img05 {
+    width: 274px;
+    height: 286px;
+    background-image: url('/Images/Rectangle\ 9.png');
+    grid-column: 19 / span 24;
+    grid-row: 2;
+}
+
+.grid-img06 {
+    width: 473px;
+    height: 300px;
+    background-image: url('/Images/Rectangle\ 11.png');
+    grid-column: 1 / span 10;
+    grid-row: 3;
+}
+
+.grid-img07 {
+    width: 673px;
+    height: 300px;
+    background-image: url('/Images/Rectangle\ 10.png');
+    grid-column: 11 / span 24;
+    grid-row: 3;
 }
 
 
-/* .gallery-grid img{
-    height: auto;
-    width: auto;
-    object-fit: cover;
-} */
+.gallery-grid div h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    /* margin: 0; */
+    /* position: absolute; */
+}
+
+
+.gallery-grid div {
+    /* margin: 0; */
+    /* padding: 0; */
+    /* height: 100%; */
+    /* width: 100%; */
+    /* object-fit: cover; */
+}
+
+
+/* ----- Why Choose Us Section -----  */
+
+.choose-us-sec {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.choose-p1 {
+    padding: 24px 0px 48px 0px;
+}
+
+.choose-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.choose-card01, .choose-card02, .choose-card03 {
+    margin-bottom: 12px;
+    flex-basis: 573px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    
+}
+.choose-card01{
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.choose-card02{
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+
+.choose-card03{
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
+
+.choose-card01-img, .choose-card02-img, .choose-card03-img{
+    width: 64px;
+height: 64px;
+flex-shrink: 0;
+padding: 32px 477px 0 32px;
+}
+
+.choose-card01-title, .choose-card02-title, .choose-card03-title{
+    color: #131318;
+font-size: 24px;
+font-weight: 800;
+    padding: 32px 0 16px 32px;
+}
+
+.choose-card01-text, .choose-card02-text, .choose-card03-text{
+    width: 486px;
+    text-align: start;
+    padding: 0px 0 16px 32px;
+}
+
+
+
+/* ----- Perfect Place Section Start -----  */
+
