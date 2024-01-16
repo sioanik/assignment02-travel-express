@@ -17,7 +17,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 100vh;
+        /* height: 100vh; */
         background-color: cornflowerblue;
         top: 150px;
         left: -100%;
@@ -182,6 +182,68 @@
 
     /* Choose Your Destination -----------  */
 
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+       
+    }
+
+    .grid-container div {
+        padding-bottom: 16px;
+        width: 335px;
+        height: 176px;
+        
+    }
+
+    .grid-item-1 {
+        grid-column: 1;
+        grid-row: 1;
+
+
+    }
+
+    .grid-item-2 {
+        grid-column: 1;
+        grid-row: 2;
+
+    }
+
+    .grid-item-3 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .grid-item-4 {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .grid-item-5 {
+        grid-column: 1;
+        grid-row: 5;
+    }
+
+    .grid-item-6 {
+        grid-column: 1;
+        grid-row: 6;
+    }
+
+    .grid-item-7 {
+        grid-column: 1;
+        grid-row: 7;
+    }
+
+
+
+
+
+
+
+
+
+
+
     .gallery-text {
         text-align: center;
         margin: 24px auto 0 auto;
@@ -190,18 +252,6 @@
     .gallery-p1 {
         width: 309px;
         padding: 16px 0 16px 0;
-    }
-
-
-    .gallery-grid {
-        display: grid;
-        grid-template-columns: 350px;
-        grid-template-rows: repeat(7, 1fr);
-        /* grid-template-areas: 
-        '.grid-img01'
-        '.grid-img02'
-        '.grid-img03'; */
-
     }
 
     /* Why Choose Us--------------  */
@@ -407,7 +457,7 @@
 
     .footer-sec {
         margin-top: 240px;
-        }
+    }
 
 
 
