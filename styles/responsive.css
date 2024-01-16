@@ -78,7 +78,7 @@
     }
 
     .banner-text {
-        max-width: 304px;
+        width: 304px;
         font-weight: 400;
         line-height: 21px;
         padding: 8px 16px 0 16px;
@@ -138,7 +138,7 @@
         gap: 24px;
         justify-content: space-between;
         align-items: flex-start;
-        width: 1170px;
+        width: 335px;
 
     }
 
@@ -235,7 +235,20 @@
     }
 
 
-
+    .grid-container>div {
+        position: relative;
+        text-align: center;
+    }
+    
+    .grid-container .text {
+        position: absolute;
+        top: 50%;
+        left: 1%;
+        transition: translate(50%, 50%);
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 700;
+    }
 
 
 

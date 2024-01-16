@@ -297,18 +297,20 @@ nav {
 }
 
 .grid-container>div {
-    /* position: relative; */
-    /* text-align: center; */
+    position: relative;
+    text-align: center;
 }
 
-/* .grid-container .text {
+.grid-container .text {
     position: absolute;
     top: 50%;
     left: 50%;
     transition: translate(-50%, -50%);
     color: #FFF;
-    font-size: large;
-} */
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    }
 
 .grid-container img {
     width: 100%;
@@ -317,11 +319,11 @@ nav {
 
 }
 
-.grid-container div{
+.grid-container div {
     padding: 12px;
 }
 
-.grid-item-1{
+.grid-item-1 {
     grid-column: 1/span 12;
     grid-row: 1/span 1;
     /* padding: 10px; */
