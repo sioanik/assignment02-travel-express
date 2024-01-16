@@ -204,7 +204,7 @@ nav {
 /* ----- Popular tours section start -----  */
 
 
-.popular-tours-sec{
+.popular-tours-sec {
     margin-top: 100px;
     display: flex;
     gap: 53px;
@@ -245,7 +245,7 @@ nav {
     border-radius: 8px;
     background: #FF5400;
     border: transparent;
-    
+
 }
 
 .button02 input[type="button"] {
@@ -457,7 +457,8 @@ nav {
 
 .choose-card01-title,
 .choose-card02-title,
-.choose-card03-title, .newslt-title {
+.choose-card03-title,
+.newslt-title {
     color: #131318;
     font-size: 24px;
     font-weight: 800;
@@ -487,15 +488,16 @@ nav {
 
 }
 
-.per-place-right{
+.per-place-right {
     width: 610px;
-height: 424px;
+    height: 424px;
 }
 
-.per-place-title{
+.per-place-title {
 
     width: 448px;
 }
+
 .per-place-text1 {
     width: 532px;
     padding: bottom 8px;
@@ -522,47 +524,46 @@ height: 424px;
 /* ----- Newsletter Section Start -----  */
 
 
-.newslt-sec{
+.newslt-sec {
     margin-top: 100px;
 }
 
-.newslt-title{
+.newslt-title {
     padding: 40px 332px 16px 40px;
 }
 
-.newslt-text
-{
+.newslt-text {
     width: 350px;
     color: #5A5A5D;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-padding: 0 43px 24px 40px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 43px 24px 40px;
 }
 
 
-hr{
+hr {
     border: none;
     width: 393px;
-height: 1px;
-background: rgba(19, 19, 24, 0.10);
-margin: 0 41px 24px 40px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 0 41px 24px 40px;
 
 }
 
-.{
-    newslt-input{
-        display: flex;
-        flex-direction: column;
-    }
+.newslt-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
-.newslt-sec{
+
+.newslt-sec {
     width: 474px;
-height: 422px;
-border-radius: 16px;
-border: 1px solid #FF5400;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
 
 }
 
