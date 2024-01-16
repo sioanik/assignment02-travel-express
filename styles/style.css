@@ -204,7 +204,7 @@ nav {
 /* ----- Popular tours section start -----  */
 
 
-.popular-tours-sec {
+.popular-tours-sec{
     margin-top: 100px;
     display: flex;
     gap: 53px;
@@ -235,7 +235,7 @@ nav {
     margin-left: 20px;
 }
 
-.button02 input[type="button"] {
+.button input[type="button"] {
     color: #FFF;
     text-align: center;
     font-size: 20px;
@@ -245,6 +245,10 @@ nav {
     border-radius: 8px;
     background: #FF5400;
     border: transparent;
+    
+}
+
+.button02 input[type="button"] {
     margin-top: 57px;
 }
 
@@ -404,13 +408,15 @@ nav {
     padding: 24px 0px 48px 0px;
 }
 
-.choose-cards{
+.choose-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.choose-card01, .choose-card02, .choose-card03 {
+.choose-card01,
+.choose-card02,
+.choose-card03 {
     margin-bottom: 12px;
     flex-basis: 573px;
     display: flex;
@@ -420,40 +426,47 @@ nav {
     height: 284px;
     flex-shrink: 0;
     border-radius: 16px;
-    
+
 }
-.choose-card01{
+
+.choose-card01 {
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
 }
 
-.choose-card02{
+.choose-card02 {
     border-radius: 16px;
-border: 1px solid rgba(41, 206, 246, 0.20);
-background: rgba(41, 206, 246, 0.05);
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
 }
 
-.choose-card03{
+.choose-card03 {
     border-radius: 16px;
-border: 1px solid rgba(233, 68, 68, 0.20);
-background: rgba(233, 68, 68, 0.05);
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
 }
 
-.choose-card01-img, .choose-card02-img, .choose-card03-img{
+.choose-card01-img,
+.choose-card02-img,
+.choose-card03-img {
     width: 64px;
-height: 64px;
-flex-shrink: 0;
-padding: 32px 477px 0 32px;
+    height: 64px;
+    flex-shrink: 0;
+    padding: 32px 477px 0 32px;
 }
 
-.choose-card01-title, .choose-card02-title, .choose-card03-title{
+.choose-card01-title,
+.choose-card02-title,
+.choose-card03-title, .newslt-title {
     color: #131318;
-font-size: 24px;
-font-weight: 800;
+    font-size: 24px;
+    font-weight: 800;
     padding: 32px 0 16px 32px;
 }
 
-.choose-card01-text, .choose-card02-text, .choose-card03-text{
+.choose-card01-text,
+.choose-card02-text,
+.choose-card03-text {
     width: 486px;
     text-align: start;
     padding: 0px 0 16px 32px;
@@ -463,3 +476,76 @@ font-weight: 800;
 
 /* ----- Perfect Place Section Start -----  */
 
+
+.per-place-sec {
+    margin-top: 100px;
+    display: flex;
+    gap: 28px;
+    /* justify-content: space-between; */
+    /* align-items: flex-start; */
+    /* width: 1170px; */
+
+}
+
+.per-place-right{
+    width: 610px;
+height: 424px;
+}
+
+.per-place-title{
+
+    width: 448px;
+}
+.per-place-text1 {
+    width: 532px;
+    padding: bottom 8px;
+    padding-top: 24px;
+}
+
+
+
+.per-place-text2 li {
+    margin-left: 20px;
+    width: 518px;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    padding-top: 16px;
+}
+
+.button03 input[type="button"] {
+    margin-top: 32px;
+}
+
+
+/* ----- Newsletter Section Start -----  */
+
+
+.newslt-sec{
+    margin-top: 100px;
+}
+
+.newslt-title{
+    padding: 40px 332px 16px 40px;
+}
+
+.newslt-text
+{
+    width: 350px;
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+padding: 0 43px 24px 40px;
+}
+
+
+hr{
+    border: none;
+    width: 393px;
+height: 1px;
+background: rgba(19, 19, 24, 0.10);
+padding: 0 41px 24px 40px;
+
+}
