@@ -29,7 +29,7 @@ body {
 
 .header-sec {}
 
-/* ----- Header section start -----  */
+/* ----- Nav section start -----  */
 
 
 nav {
@@ -98,6 +98,26 @@ nav {
     font-size: 18px;
     font-weight: 700;
 }
+
+/* ----- Responsive Nav -----  */
+
+.cheakbtn {
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin: -8px 50px;
+    cursor: pointer;
+    display: none;
+}
+
+#cheak {
+    display: none;
+}
+
+
+
+
 
 
 /* ----- Banner section start -----  */
@@ -659,7 +679,7 @@ hr {
     padding: 110px 0 15px 0;
 }
 
-.footer-sec2{
+.footer-sec2 {
     text-align: center;
     padding-bottom: 32px;
 }
@@ -673,14 +693,14 @@ hr {
 
 }
 
-.footer-sec3{
+.footer-sec3 {
     width: 174.322px;
-height: 24px;
+    height: 24px;
     display: flex;
     justify-content: space-around;
 }
 
-.footer-sec4{
-    margin-bottom:110px ;
+.footer-sec4 {
+    margin-bottom: 110px;
 
 }

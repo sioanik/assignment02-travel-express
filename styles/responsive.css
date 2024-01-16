@@ -1,0 +1,440 @@
+@media screen and (max-width:600px) {
+
+    /* Responsive Nav  */
+
+
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .cheakbtn {
+        display: block;
+    }
+
+    nav ul {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        background-color: cornflowerblue;
+        top: 150px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    a:hover {
+        background: none;
+        color: wheat;
+    }
+
+    #cheak:checked~ul {
+        left: 0;
+    }
+
+    body {
+        max-width: 335px;
+        margin: 0 auto;
+    }
+
+
+    /* Banner Section  */
+
+
+    .nav {
+        width: 375px;
+        height: 64px;
+    }
+
+
+
+    .banner-sec {
+        height: 483px;
+        width: 335px;
+        display: block;
+
+
+    }
+
+    .banner-title {
+        font-size: 22px;
+        padding: 32px 64px 0 66px;
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 800;
+
+    }
+
+    .banner-text {
+        max-width: 304px;
+        font-weight: 400;
+        line-height: 21px;
+        padding: 8px 16px 0 16px;
+
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .banner-input {
+        height: 288px;
+        width: 287px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+
+
+
+    }
+
+    #input-01 input[type="text"] {
+        width: 255px;
+
+    }
+
+    #input-02 select {
+        color: rgba(19, 19, 24, 0.50);
+        width: 255px;
+
+    }
+
+    #input-03 select {
+        width: 255px;
+    }
+
+    #input-04 button {
+        width: 255px;
+
+    }
+
+
+    /* Popular Tour Sec-------------  */
+
+    .popular-tours-sec {
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 1170px;
+
+    }
+
+
+
+    .h3-title {
+        font-size: 20px;
+
+    }
+
+    .para-style {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .popular-tours-text1,
+    .popular-tours-text2,
+    .popular-tours-text3 {
+        width: 335px;
+        padding: 16px 0;
+
+    }
+
+    .popular-tours-text2 li {
+        padding-bottom: 0px;
+        margin-left: 20px;
+    }
+
+
+    .button02 input[type="button"] {
+        margin-top: 0px;
+    }
+
+    .popular-tours-right img {
+        width: 335px;
+        height: 342px;
+
+    }
+
+
+    /* Choose Your Destination -----------  */
+
+    .gallery-text {
+        text-align: center;
+        margin: 24px auto 0 auto;
+    }
+
+    .gallery-p1 {
+        width: 309px;
+        padding: 16px 0 16px 0;
+    }
+
+
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: 350px;
+        grid-template-rows: repeat(7, 1fr);
+        /* grid-template-areas: 
+        '.grid-img01'
+        '.grid-img02'
+        '.grid-img03'; */
+
+    }
+
+    /* Why Choose Us--------------  */
+
+    .choose-us-sec {
+        margin-top: 24px;
+        text-align: center;
+    }
+
+    .choose-p1 {
+        width: 309px;
+        padding: 16px 0px 16px 0px;
+    }
+
+
+    .choose-card01,
+    .choose-card02,
+    .choose-card03 {
+        margin-bottom: 16px;
+        /* flex-basis: 573px; */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 335px;
+        height: 289px;
+        flex-shrink: 0;
+        border-radius: 16px;
+    }
+
+    .choose-card01-img,
+    .choose-card02-img,
+    .choose-card03-img {
+        width: 48px;
+        height: 48px;
+        flex-shrink: 0;
+        padding: 32px 255px 0 32px;
+    }
+
+    .choose-card01-title,
+    .choose-card02-title,
+    .choose-card03-title,
+    .newslt-title {
+        font-size: 20px;
+        padding: 16px 0 16px 32px;
+    }
+
+    .choose-card01-text,
+    .choose-card02-text,
+    .choose-card03-text {
+        width: 271px;
+        text-align: start;
+        padding: 0px 0 16px 32px;
+    }
+
+    /* Perfect Place----------------  */
+
+
+    .per-place-sec {
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .per-place-right {
+        width: 335px;
+        height: 200px;
+    }
+
+    .per-place-right img {
+        width: 335px;
+        height: 200px;
+    }
+
+
+    .per-place-title {
+
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 30px;
+        width: 248px;
+
+    }
+
+    .per-place-text1 {
+        width: 335px;
+        color: rgba(19, 19, 24, 0.70);
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 171.429% */
+    }
+
+
+
+    .per-place-text2 li {
+        margin-left: 20px;
+        width: 335px;
+        color: #131318;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+        padding-top: 16px;
+    }
+
+    .button03 input[type="button"] {
+        margin-top: 32px;
+    }
+
+
+    /* Newsletter------------  */
+
+    .newslt-sec {
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        width: 335px;
+        height: 353px;
+        margin-bottom: 24px;
+    }
+
+
+    .newslt-title {
+        padding: 23px 207px 8px 23px;
+    }
+
+
+    .newslt-text {
+        width: 270px;
+        font-size: 14px;
+        line-height: 24px;
+        padding: 0 42px 16px 23px;
+    }
+
+    hr {
+        width: 288px;
+        height: 1px;
+    }
+
+
+    .newslt-left {
+        width: 335px;
+        height: 353px;
+    }
+
+
+    .newslt-input input[type="text"],
+    .newslt-input input[type="email"] {
+        width: 288px;
+        height: 52px;
+        text-indent: 20px;
+        margin-top: 16px;
+
+    }
+
+    .newslt-btn {
+        margin-top: 24px;
+        width: 288px;
+        height: 52px;
+
+
+    }
+
+
+    .newslt-right {
+        position: relative;
+    }
+
+    /* .newslt-right {
+        width: 335px;
+        height: 300px;
+        margin-top: 24px;
+        
+    } */
+
+    .newslt-right img {
+        width: 335px;
+        height: 300px;
+        margin-top: 24px;
+
+    }
+
+    .newslt-right-p {
+        width: 214px;
+        height: 79px;
+    }
+
+    .newslt-right-p1 {
+        font-size: 16px;
+    }
+
+    .newslt-right-p2 {
+        font-size: 21px;
+    }
+
+
+
+    /* Footer sec-----------  */
+
+
+    .footer-sec {
+        margin-top: 240px;
+        }
+
+
+
+    .footer-sec2 {
+        text-align: center;
+        padding-bottom: 16px;
+    }
+
+    .footer-hr>hr {
+        width: 335px;
+        margin: 24px 20px;
+    }
+
+
+    .footer-sec4 {
+        margin-bottom: 110px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
