@@ -64,7 +64,7 @@
         height: 483px;
         width: 335px;
         display: block;
-
+        background-position: center;
 
     }
 
@@ -79,9 +79,10 @@
 
     .banner-text {
         width: 304px;
+        font-size: 14px;
         font-weight: 400;
         line-height: 21px;
-        padding: 8px 16px 0 16px;
+        padding: 8px 16px 20px 16px;
 
     }
 
@@ -190,7 +191,7 @@
     }
 
     .grid-container div {
-        padding-bottom: 16px;
+        padding-bottom: 8px;
         width: 335px;
         height: 176px;
         
@@ -319,6 +320,85 @@
         padding: 0px 0 16px 32px;
     }
 
+    /* Deals section--------------------  */
+
+    .deals-sec {
+        margin-top: 24px;
+        }
+    
+    .deals-para {
+        width: 309px;
+    }
+    
+    .deals-sec01 {
+        width: 335px;
+        border-radius: 16px;
+        }
+    
+    .deals-sec02 {
+        width: 335px;
+        border-radius: 16px;
+
+        
+     }
+    
+    .deals-sec02>.deals-card {
+        margin: auto auto 16px auto;
+    }
+    
+    
+    .deals-card {
+        width: 303px;
+        height: 297px;
+        padding-left: 16px;
+        margin: auto auto 16px auto;
+    }
+    
+    
+    
+    .deals-card-s1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin: 24px auto 16px auto;
+    }
+
+    .deals-card-s1-p1{
+        flex-basis: 220px;
+        text-align: left;
+    }
+    
+    .deals-card-s2 {
+        font-size: 20px;
+        padding-bottom: 6px;
+    }
+    
+    .deals-card-s3 {
+        width: 254px;
+        font-size: 16px;
+      
+    }
+    
+    .deals-card-s4 {
+        color: #FF5400;
+        padding-top: 8px;
+    
+    }
+    
+    .deals-card-s5 {
+        width: 150px;
+        height: 52px;
+        margin-top: -15px;
+    
+    }
+    
+    .deals-button-sec {
+        margin: 10px auto 50px 62px;
+    }
+    
+    
+
     /* Perfect Place----------------  */
 
 
@@ -376,6 +456,80 @@
         margin-top: 32px;
     }
 
+    /* Testimonial section ----------------  */
+
+    .testi-sec {
+        height: auto;
+        width: 335px;
+        background-size: cover;
+        margin-top: 24px;
+        border-radius: 16px;
+    }
+    
+    
+    .testi-title {
+        font-size: 20px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    
+    .testi-para {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
+    
+    .testi-cards {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: flex-start; */
+        /* align-items: flex-start; */
+
+    }
+    
+    
+    .testi-card1 {
+        margin: 0 auto;
+        width: 300px;
+        height: auto;
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+    
+    .testi-card2 {
+        /* margin-top: 10px; */
+    }
+    
+    .testi-card-s1 {
+          padding: 10px;
+    }
+    
+    
+    .testi-card-s3 {
+        margin: 5px 20px;
+      
+    }
+    
+    .testi-card-s4img {
+        border: 3px solid orangered;
+        border-radius: 50%;
+        margin-left: 117.25px;
+    
+    }
+    
+    .testi-card-s4title {
+        padding-top: 5px;
+    }
+    
+    .testi-card-s4desig {
+        text-align: center;
+        color: #cdc7c7;
+    }
+    
+
+
+
+
 
     /* Newsletter------------  */
 
@@ -413,6 +567,7 @@
     .newslt-left {
         width: 335px;
         height: 353px;
+        margin-bottom: 24px;
     }
 
 
