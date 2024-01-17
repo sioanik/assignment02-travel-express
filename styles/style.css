@@ -627,7 +627,7 @@ hr {
 .deals-sec01 {
     width: 1170px;
     height: 500px;
-    background-image: url('/Images/deals01.png');
+    background-image: url('../Images/deals01.png');
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -637,7 +637,7 @@ hr {
 .deals-sec02 {
     width: 1170px;
     height: 500px;
-    background-image: url('/Images/deals02.png');
+    background-image: url('../Images/deals02.png');
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -733,7 +733,7 @@ hr {
 
 .testi-sec {
     height: 550px;
-    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('/Images/testi.jpg');
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/testi.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
